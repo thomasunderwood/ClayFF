@@ -1,0 +1,50 @@
+;; charges are overwritten later in the .itp files 
+
+[ atomtypes ]										
+;;	  name	 at.num	mass	    charge	ptype	sigma	    epsilon												
+        ao	 13	    26.98154	1.57500	A	    0.427100	5.56388E-06
+        st	 14	    28.08550	2.10000	A	    0.330200	7.70065E-06
+        ob	  8	    15.99940	-1.0500	A	    0.316556	0.650170
+        oh	  8	    15.99940	-0.9500	A	    0.316556	0.650170
+        ho	  1	    1.007940	0.42500	A	    0.000000	0.000000
+       mgo	 12	    24.30500	1.36000	A	    0.526400	3.77807E-06
+      obos	  8	    15.99940	-1.1688	A	    0.316556	0.650170
+       ohs	  8	    15.99940	-1.0809	A	    0.316556	0.650170
+
+#ifdef SPC    
+; Joung Cheatham 2008
+;;    name   at.num mass      charge  ptype sigma     epsilon                       
+        Li    3     6.941000  1.00000 A     0.140940  1.40890   ; Aqueous lithium ion   
+        Na   11     22.98977  1.00000 A     0.215954  1.47545   ; Aqueous sodium  ion   
+         K   19     39.09830  1.00000 A     0.283840  1.79789   ; Aqueous potassium ion
+        Rb   37     85.46783  1.00000 A     0.309498  1.8623    ; Aqueous rubinium  ion       
+        Cs   55     132.9055  1.00000 A     0.360100  0.37596   ; Aqueous cesium  ion   
+         F    9     18.99840  -1.0000 A     0.402152  0.000321  ; Aqueous fluoride  ion
+        Cl   17     35.45300  -1.0000 A     0.483050  0.05349   ; Aqueous chloride  ion 
+        Br   35     79.90400  -1.0000 A     0.490170  0.11279   ; Aqueous bromide ion   
+         I   53     126.9045  -1.0000 A     0.520107  0.17901   ; Aqueous iodide  ion
+#endif
+
+#ifdef SPCE   
+; Joung Cheatham 2008 (Same as for SPC)
+;;    name   at.num mass      charge  ptype sigma     epsilon                       
+        Li    3     6.941000  1.00000 A     0.140940  1.40890   ; Aqueous lithium ion   
+        Na   11     22.98977  1.00000 A     0.215954  1.47545   ; Aqueous sodium  ion   
+         K   19     39.09830  1.00000 A     0.283840  1.79789   ; Aqueous potassium ion
+        Rb   37     85.46783  1.00000 A     0.309498  1.8623    ; Aqueous rubinium  ion       
+        Cs   55     132.9055  1.00000 A     0.360100  0.37596   ; Aqueous cesium  ion   
+         F    9     18.99840  -1.0000 A     0.402152  0.000321  ; Aqueous fluoride  ion
+        Cl   17     35.45300  -1.0000 A     0.483050  0.05349   ; Aqueous chloride  ion 
+        Br   35     79.90400  -1.0000 A     0.490170  0.11279   ; Aqueous bromide ion   
+         I   53     126.9045  -1.0000 A     0.520107  0.17901   ; Aqueous iodide  ion
+        Ca   20     40.07800  2.00000 A     0.291324  0.409530  ; (CM) P Li, B P. Roberts, D K. Chakravorty, and K M. Merz                  
+#endif
+
+; Define the atomtypes for the different water models
+; spc water
+;;    name   at.num mass      charge  ptype sigma        epsilon                       
+    OW_spc    8     15.9994  -0.8200  A     3.16557e-01  6.50170e-01
+    HW_spc    1     1.00794   0.4100  A     0.00000e+00  0.00000e+00
+; spce water              
+    OW_spce   8     15.9994  -0.8476  A   3.16557e-01  6.50170e-01
+    HW_spce   1     1.00794   0.4238  A   0.000000     0.000000

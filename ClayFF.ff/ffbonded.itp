@@ -1,0 +1,8 @@
+
+[ bondtypes ]
+ho		oh 						1 		0.1		    463700		; original ClayFF
+ho		ohs 					1 		0.1		    463700		; original ClayFF
+
+[ angletypes ]
+ho		oh 			ao			1		109.47 		251.04		; original ClayFF
+ho		ohs			mgo 		1		109.47 		251.04		; original ClayFF

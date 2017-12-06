@@ -1,0 +1,16 @@
+; The ClayFF forcefield.
+; 
+; References
+;
+; R.T Cygan, J.J Liang, A.G. Kalinichev, J. Phys. Chem. B, 2004, 108 (4), pp 1255–1266
+; http://dx.doi.org/10.1021/jp0363287
+
+; nbfunc 1 		== Lennard-Jones formula for non-bonded interactions
+; comb-rule 2 	== Lorentz-Berthelot mixing rules
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes              1.0     1.0
+
+#include "ffnonbonded.itp"
+#include "ffbonded.itp"
