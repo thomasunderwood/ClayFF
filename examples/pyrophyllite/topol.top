@@ -1,0 +1,16 @@
+; include params for ClayFF
+#include "./ClayFF.ff/forcefield.itp"
+
+; Include the individual topology for clay
+#include "./ffPyroUC.itp"
+
+; Include the individual topology for SPC water
+#include "./ClayFF.ff/spc.itp"
+
+[ system ]
+; Name
+Pyrophyllite in water
+
+[ molecules ]
+; Compound        #mols
+PYR				1

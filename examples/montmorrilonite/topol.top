@@ -1,0 +1,17 @@
+; include params for ClayFF
+#include "./ClayFF.ff/forcefield.itp"
+
+; Include the individual topology for clay
+#include "./ffMontAR.itp"
+
+; Include the individual topology for SPC water
+#include "./ClayFF.ff/spce.itp"
+#include "./ClayFF.ff/ions.itp"
+
+[ system ]
+; Name
+MMT in water
+
+[ molecules ]
+; Compound        #mols
+MON				1

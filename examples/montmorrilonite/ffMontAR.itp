@@ -1,0 +1,58 @@
+;
+;
+[ moleculetype ]
+; name		nrexcl
+  MON		1
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue   1 MON rtp MON  q  0.0
+     1         ho      1    MON    HO1      1      0.425      1.008   ; qtot 0.425
+     2         ho      1    MON    HO2      2      0.425      1.008   ; qtot 0.85
+     3         ho      1    MON    HO3      3      0.425      1.008   ; qtot 1.275
+     4         ho      1    MON    HO4      4      0.425      1.008   ; qtot 1.7
+     5        ohs      1    MON   OHS1      5    -1.0808         16   ; qtot 0.6192
+     6        ohs      1    MON   OHS2      6    -1.0808         16   ; qtot -0.4616
+     7         oh      1    MON    OH1      7      -0.95         16   ; qtot -1.412
+     8         oh      1    MON    OH2      8      -0.95         16   ; qtot -2.362
+     9       obos      1    MON   OBS1      9    -1.1808         16   ; qtot -3.542
+    10       obos      1    MON   OBS2     10    -1.1808         16   ; qtot -4.723
+    11         ob      1    MON    OB1     11      -1.05         16   ; qtot -5.773
+    12       obos      1    MON   OBS3     12    -1.1808         16   ; qtot -6.954
+    13       obos      1    MON   OBS4     13    -1.1808         16   ; qtot -8.135
+    14         ob      1    MON    OB2     14      -1.05         16   ; qtot -9.185
+    15         ob      1    MON    OB3     15      -1.05         16   ; qtot -10.23
+    16         ob      1    MON    OB4     16      -1.05         16   ; qtot -11.28
+    17         ob      1    MON    OB5     17      -1.05         16   ; qtot -12.33
+    18         ob      1    MON    OB6     18      -1.05         16   ; qtot -13.38
+    19         ob      1    MON    OB7     19      -1.05         16   ; qtot -14.43
+    20         ob      1    MON    OB8     20      -1.05         16   ; qtot -15.48
+    21         ob      1    MON    OB9     21      -1.05         16   ; qtot -16.53
+    22         ob      1    MON   OB10     22      -1.05         16   ; qtot -17.58
+    23         ob      1    MON   OB11     23      -1.05         16   ; qtot -18.63
+    24         ob      1    MON   OB12     24      -1.05         16   ; qtot -19.68
+    25         ob      1    MON   OB13     25      -1.05         16   ; qtot -20.73
+    26         ob      1    MON   OB14     26      -1.05         16   ; qtot -21.78
+    27         ob      1    MON   OB15     27      -1.05         16   ; qtot -22.83
+    28         ob      1    MON   OB16     28      -1.05         16   ; qtot -23.88
+    29        mgo      1    MON   MGO1     29     1.3598      24.31   ; qtot -22.52
+    30         ao      1    MON    AO1     30      1.575      26.98   ; qtot -20.95
+    31         ao      1    MON    AO2     31      1.575      26.98   ; qtot -19.37
+    32         ao      1    MON    AO3     32      1.575      26.98   ; qtot -17.8
+    33         st      1    MON    ST1     33        2.1      28.09   ; qtot -15.7
+    34         st      1    MON    ST2     34        2.1      28.09   ; qtot -13.6
+    35         st      1    MON    ST3     35        2.1      28.09   ; qtot -11.5
+    36         st      1    MON    ST4     36        2.1      28.09   ; qtot -9.4
+    37         st      1    MON    ST5     37        2.1      28.09   ; qtot -7.3
+    38         st      1    MON    ST6     38        2.1      28.09   ; qtot -5.2
+    39         st      1    MON    ST7     39        2.1      28.09   ; qtot -3.1
+    40         st      1    MON    ST8     40        2.1      28.09   ; qtot -1
+;    41         Na      1    MON    NA1     41          1      22.99   ; qtot 0
+
+
+[ bonds ]
+; i	j	funct	length	force.c.					
+1	5     1     0.1    463532.808
+2	6     1		0.1    463532.808
+3	7     1		0.1    463532.808
+4	8     1		0.1    463532.808	

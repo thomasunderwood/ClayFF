@@ -1,0 +1,56 @@
+;
+;
+[ moleculetype ]
+; name		nrexcl
+  PYR		1
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+; residue   1 PYR rtp PYR  q  0.0
+     1         ho      1    PYR    HO1      1      0.425      1.008   
+     2         ho      1    PYR    HO2      2      0.425      1.008   
+     3         ho      1    PYR    HO3      3      0.425      1.008   
+     4         ho      1    PYR    HO4      4      0.425      1.008   
+     5         oh      1    PYR    OH1      5      -0.95         16   
+     6         oh      1    PYR    OH2      6      -0.95         16   
+     7         oh      1    PYR    OH3      7      -0.95         16   
+     8         oh      1    PYR    OH4      8      -0.95         16   
+     9         ob      1    PYR    OB1      9      -1.05         16   
+    10         ob      1    PYR    OB2     10      -1.05         16   
+    11         ob      1    PYR    OB3     11      -1.05         16   
+    12         ob      1    PYR    OB4     12      -1.05         16   
+    13         ob      1    PYR    OB5     13      -1.05         16   
+    14         ob      1    PYR    OB6     14      -1.05         16   
+    15         ob      1    PYR    OB7     15      -1.05         16   
+    16         ob      1    PYR    OB8     16      -1.05         16   
+    17         ob      1    PYR    OB9     17      -1.05         16   
+    18         ob      1    PYR   OB10     18      -1.05         16   
+    19         ob      1    PYR   OB11     19      -1.05         16   
+    20         ob      1    PYR   OB12     20      -1.05         16   
+    21         ob      1    PYR   OB13     21      -1.05         16   
+    22         ob      1    PYR   OB14     22      -1.05         16   
+    23         ob      1    PYR   OB15     23      -1.05         16   
+    24         ob      1    PYR   OB16     24      -1.05         16   
+    25         ob      1    PYR   OB17     25      -1.05         16   
+    26         ob      1    PYR   OB18     26      -1.05         16   
+    27         ob      1    PYR   OB19     27      -1.05         16   
+    28         ob      1    PYR   OB20     28      -1.05         16   
+    29         ao      1    PYR    AO1     29      1.575      24.31   
+    30         ao      1    PYR    AO2     30      1.575      26.98   
+    31         ao      1    PYR    AO3     31      1.575      26.98   
+    32         ao      1    PYR    AO4     32      1.575      26.98   
+    33         st      1    PYR    ST1     33        2.1      28.09   
+    34         st      1    PYR    ST2     34        2.1      28.09   
+    35         st      1    PYR    ST3     35        2.1      28.09   
+    36         st      1    PYR    ST4     36        2.1      28.09   
+    37         st      1    PYR    ST5     37        2.1      28.09   
+    38         st      1    PYR    ST6     38        2.1      28.09   
+    39         st      1    PYR    ST7     39        2.1      28.09   
+    40         st      1    PYR    ST8     40        2.1      28.09   
+
+[ bonds ]
+; i	j	funct	length	force.c.					
+1	5     1     0.1    463532.808
+2	6     1		0.1    463532.808
+3	7     1		0.1    463532.808
+4	8     1		0.1    463532.808	
