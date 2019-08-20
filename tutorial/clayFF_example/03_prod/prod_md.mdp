@@ -1,0 +1,49 @@
+
+; RUN CONTROL PARAMETERS
+integrator               = sd					; sampling of the (nearly) decoupled syst should be used
+dt                       = 0.001           		; ps
+nsteps                   = 50000         	; 10000 ps = 10ns
+
+; OUTPUT CONTROL OPTIONS
+nstxout                  = 5000             	; turn off trajectory writing;
+nstvout                  = 5000              	; turn off trajectory writing
+nstfout                  = 5000
+nstlog                   = 5000              	; Output frequency to write energies to log file 
+nstenergy                = 5000              	; Output frequency to write energies to energy file 
+energygrps               = System            	; groups to write to energy file
+
+; NEIGHBOR SEARCHING PARAMETERS
+nstlist                  = 5                	; update frequency 
+ns_type                  = grid             	; algorithm (simple or grid)
+pbc                      = xyz
+rlist                    = 1.4              	; cut-off distance nm  
+
+; OPTIONS FOR ELECTROSTATICS
+coulombtype              = PME             		; Method for doing electrostatics 
+rcoulomb                 = 1.4              	; Coulomb cut-off distance nm 
+
+; VDW
+;vdw-type                 = Cut-off            	; Method for doing VDW
+rvdw                     = 1.4              	; cut-off lengths nm
+;rvdw-switch              = 1.39
+;DispCorr                 = no 					; Apply long range dispersion corrections for Energy & Pressure (EnerPres)
+
+; OPTIONS FOR WEAK COUPLING ALGORITHMS
+Tcoupl                   = V-rescale        	; Temperature coupling
+Tc-grps                  = System           	; Groups to couple separately
+tau_T                    = 1.0              	; Time constant (ps)
+ref_T                    = 300              	; Reference temperature (K)
+
+; OPTIONS FOR BONDS     
+constraints              = h-bonds
+;constraint-algorithm     = Lincs
+;unconstrained-start      = yes
+;lincs-order              = 4
+;lincs-warnangle          = 30
+;lincs-iter               = 8
+
+;GENERATE VELOCITES
+;gen_vel                  = no               ; generates velocities
+;gen_temp                 = 300              
+;gen_seed                 = 173529
+

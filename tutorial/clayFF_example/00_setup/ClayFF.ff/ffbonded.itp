@@ -1,0 +1,25 @@
+; Bond type code
+ ; when converting from ClayFF to Gromacs use 1cal - 4.186 J
+ ; also need to multiply k by 2
+ ;
+ #define oh        0.1  463532.8
+ ; hydroxil bond  
+ ;
+#define ohs        0.1  463532.8
+ ; hydroxil bond with substitution 
+ ;
+#define ohw        0.1  463532.8
+ ; water bond 
+ ;
+ ;
+ ;for konversion use 1 kcal/mol A^2 = 418.6 kJ/mol nm^2
+ ;also multiply by 2
+ ;
+ ; Bond-angle type code
+ ;
+ #define hoh         109.47  383.0
+ ; water angle
+ ;
+ #define moh         109.47  251.2
+ ; metal-oh
+ ;

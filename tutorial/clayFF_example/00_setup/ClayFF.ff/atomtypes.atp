@@ -1,0 +1,24 @@
+   hw	1.008		; water hydrogen
+   ho	1.008		; hydroxyl hydrogen
+   ow	16.00		; water hydrogen
+   oh	16.00		; hydroxyl oxygen
+   ob	16.00		; bridging oxygen
+   obos	16.00		; bridging oxygen with octahedral substitution
+   obts	16.00		; bridging oxygen with tetrahedral substitution
+   obss	16.00		; bridging oxygen with double substitution 
+   ohs 	16.00		; hydroxyl oxygen with substitution
+   st	28.09		; tetrahedral silicon
+   ao	26.98		; octahedral aluminum
+   at	26.98		; tetrahedral aluminum
+   mgo	24.31		; octahedral magnesium
+   mgh	24.31		; hydroxide magnesium
+   cao	40.08		; octahedral calcium
+   cah	40.08		; hydroxide calcium 
+   feo	55.85		; octahedral iron 
+   lio	6.941		; octahedral lithium
+   Na	22.99		; aqueous sodium ion
+   K	39.10		; aqueous potassium ion
+   Cs	132.9		; aqueous cesium ion
+   Ca	40.08		; aqueous calcium ion
+   Ba	137.3		; aqueous barium ion
+   Cl	35.45		; aqueous chloride ion

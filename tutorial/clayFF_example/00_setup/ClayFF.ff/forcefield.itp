@@ -1,0 +1,7 @@
+#define _ClayFF_TOM
+ 
+[ defaults ]
+;nbfunc	comb-rule	gen-pairs	fudgeLJ	fudgeQQ
+1			2			yes			1.0		1.0
+ 
+#include "./ffnonbonded.itp"
