@@ -1,7 +1,7 @@
 # ClayFF: 
 # A GROMACS implementation of the ClayFF force field
 
-## Old tutorial...
+## An old tutorial...
 
 [GROMACS LINK:]
 
