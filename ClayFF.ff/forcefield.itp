@@ -9,7 +9,7 @@
 ; comb-rule 2 	== Lorentz-Berthelot mixing rules
 
 [ defaults ]
-; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+; nbfunc        comb-rule       gen-pairs        fudgeLJ fudgeQQ
 1               2               yes              1.0     1.0
 
 #include "ffnonbonded.itp"
